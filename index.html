@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <link rel="stylesheet" href="Assets/css/style2.css">
+    <link rel="shortcut icon" href="/Assets/imgs/1.png" type="emoji">
+  </head>
+  <body>
+    <div id="gameIntro">
+      <h2 class="heading">Welcome to</h2>
+      <h1>Tic-Tac-Toe</h1>
+      <span class="playerName"
+        >Player 1 😵‍💫
+      </span>
+      <!-- input 1 -->
+      <input
+        type="text"
+        class="input"
+        id="input1"
+        placeholder="Enter first name"
+        maxlength="9"
+      />
+      <span class="playerName"
+        >Player 2 🥴</span
+      >
+      <!-- input 2 -->
+
+      <input
+        type="text"
+        class="input"
+        id="input2"
+        placeholder="Enter first name"
+        maxlength="9"
+      />
+      <!-- note -->
+      <button class="Btn">Next</button>
+    </div>
+
+    <!-- game starting -->
+
+    <div id="player1"></div>
+    <div id="vsBox">
+      <p id="vsTxt">VS</p>
+    </div>
+    <div id="player2"></div>
+
+    <div id="winnerCont" class="hide">
+      <p id="winnerMsg" class="hide"></p>
+      <button id="closeBtn">Close</button>
+    </div>
+
+    <div id="container">
+      <div id="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+      <button id="reset-btn">Resetart Game</button>
+    </div>
+
+    <script src="Assets/js/script.js"></script>
+  </body>
+</html>

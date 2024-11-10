@@ -1,0 +1,86 @@
+@media (max-width: 660px) {
+  #player1 {
+    margin-top: 20px;
+    margin-right: 300px;
+    font-size: 23px;
+
+  }
+  #player2 {
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 23px;
+  }
+  #vsBox {
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border: 3px solid #372103;
+  }
+  #vsTxt {
+    font-size: 35px;
+  }
+  #winnerMsg {
+    font-size: 45px;
+  }
+  #container {
+    width: 440px;
+    height: 440px;
+  }
+}
+@media(max-height : 710px){
+    .Btn{
+        margin-top: 0px;
+    }
+}
+@media(max-width : 1270px){
+    .Btn{
+        margin-left: 800px;
+    }
+    .input{
+        margin-left: 400px;
+    }
+    
+}
+@media(max-width : 1100px){
+    .input{
+        margin-left:340px;
+    }
+
+}
+@media(max-width : 960px){
+    .Btn{
+        margin-left: 00px;
+    }
+    .input{
+        margin-left: 250px;
+    }
+}
+@media(max-width : 790px){
+    .input{
+        margin-left: 210px;
+    }
+
+}
+@media(max-width : 720px){
+    .input{
+        margin-left: 150px;
+    }
+
+}
+@media(max-width : 600px){
+    .input{
+        margin-left: 100px;
+    }
+
+}
+@media(max-width : 542px){
+    h1{
+        font-size: 55px;
+    }
+    .input{
+        margin-left: 70px;
+        width: 350px;
+    }
+    
+
+}
